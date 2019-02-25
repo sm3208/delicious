@@ -1,0 +1,163 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #black;
+  margin: auto;
+}
+
+
+/***** HEADER *****/
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  height: 110px;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  line-height: 23px;
+  text-transform: uppercase;
+  float: left;
+  padding-top: 30px;
+}
+
+header span {
+  color: #77a466;
+}
+
+header nav {
+  font-size: 14px;
+  line-height: 23px;
+  color: #77a466;
+  float: right;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+header nav ul li a {
+  color: #77a466;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+/***** TOP SECTION *****/
+.top-section {
+  clear: both;
+}
+
+.main-image {
+  height: auto;
+  float: left;
+}
+
+.main-image img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+.welcome {
+  float: left;
+}
+
+.welcome h3 {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700px;
+  text-transform: uppercase;
+  color: #77a466;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.welcome p {
+  padding: 5px 0px;
+}
+
+.welcome span {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*****BOTTOM SECTION*****/
+
+.bottom-section {
+  border-top: 1px solid #dedbdc;
+  clear: both;
+}
+
+.section-one,
+.section-two,
+.section-three {
+  float: left;
+  width: 399px;
+  height: auto;
+}
+
+.bottom-section h4 {
+  text-transform: uppercase;
+  font-weight: 700px;
+  padding: 0px 30px;
+  }
+
+.section-one h4 {
+  padding: 10px 0;
+}
+
+.section-two {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+
+.menu {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 23px;
+  list-style: none;
+  margin: auto;
+  padding: 0px;
+}
+
+.menu li {
+  padding: 10px 0px;
+}
+
+.section-two p,
+.section-three p {
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 30px;
+}
+
+.address {
+  font: 12px;
+  line-height: 25px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  border-top: 1px solid #dedbdc;
+  clear: both;
+  padding: 15px 0px;
+}
+
+footer span {
+  color: #77a466;
+  font-family: 'Dancing Script', cursive;
+  text-transform: lowercase;
+  font-size: 18px;
+}
